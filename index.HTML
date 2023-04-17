@@ -12,6 +12,61 @@
     <title>Ejercicio 2 Trabajo Practico N° 5.</title>
 </head>
 <body>
+    <header>
+        <div class="bg-black text-white">
+            <h1 class="text-center p-3">Generaciones</h1>
+        </div>
+    </header>
+    <main>
+        <section class="container text-center">
+            <form class="row g-3">
+                <div class="col-md-9">
+                  <label for="nombre" class="form-label">Nombre y Apellido</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre y apellido. Ejemplo: German Rusco">
+                </div>
+                <div class="col-md-3">
+                  <label for="edad" class="form-label">Edad</label>
+                  <input type="number" class="form-control" id="edad" placeholder="Ingrese su edad.">
+                </div>
+                <div class="col-md-6">
+                  <label for="DNI" class="form-label">DNI</label>
+                  <input type="number" class="form-control" id="DNI" placeholder="Ingrese su DNI.">
+                </div>
+                <div class="col-md-6">
+                  <label for="genero" class="form-label">Género</label>
+                  <select name="Genero" class="form-select" id="genero">
+                    <option selected>Género.</option>
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                    <option>No binario</option>
+                    <option>Sin especificar</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <label for="peso" class="form-label">Peso</label>
+                  <input type="number" class="form-control" id="peso" placeholder="Ingrese su peso en kg.">
+                </div>
+                <div class="col-md-4">
+                  <label for="altura" class="form-label">Altura</label>
+                  <input type="number" id="altura" class="form-control" placeholder="Ingrese su altura en cm.">
+                </div>
+                <div class="col-md-4">
+                  <label for="nacimiento" class="form-label">Año de Nacimiento</label>
+                  <input type="number" class="form-control" id="nacimiento" placeholder="Ingrese su año de nacimiento. Ejemplo: 1990">
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+              </form>
+        </section>
+    </section>
+    <section class="m-2 p-2 text-center">
+      <button class="btn btn-success fs-6 disabled">
+        Limpiar Formulario
+      </button>
+    </section>
+    </main>
+    <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
 </body>
